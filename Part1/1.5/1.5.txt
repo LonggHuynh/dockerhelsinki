@@ -1,0 +1,8 @@
+Commands:
+docker run -d --name c15 devopsdockeruh/simple-web-service:alpine
+docker exec -it c15 bash
+tail -f ./text.log
+
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+

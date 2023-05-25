@@ -1,0 +1,2 @@
+docker build . -t c113
+docker run -p 8080:8080 c113

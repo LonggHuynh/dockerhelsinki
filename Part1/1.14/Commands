@@ -1,0 +1,7 @@
+docker build . -t c112
+docker run -p 5000:5000 c112
+
+
+docker build . -t c113
+docker run -p 5000:5000 c113
+
